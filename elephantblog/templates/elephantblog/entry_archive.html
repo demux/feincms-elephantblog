@@ -34,6 +34,7 @@
         </header>
         <div class="entry-summary">
             {% if entry.first_image %}{{ entry.first_image.render }}{% endif %}
+            {% if entry.first_markupmirror %}{{ entry.first_markupmirror.render }}{% endif %}
             {% if entry.first_richtext %}{{ entry.first_richtext.render }}{% endif %}
         </div>
     </article>
